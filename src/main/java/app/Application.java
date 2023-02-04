@@ -17,8 +17,6 @@ public class Application {
             Timer beanTimer = applicationContext.getBean(Timer.class);
             System.out.println(beanTimer.getTime());
             bean.whatAnimalSay();
-
-
         }
     }
 
